@@ -1,0 +1,5 @@
+format: jb-book
+root: index.md
+chapters:
+  - file: groups/README.md
+  - file: emails/README.md
