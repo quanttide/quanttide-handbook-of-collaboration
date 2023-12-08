@@ -2,4 +2,6 @@ format: jb-book
 root: index.md
 chapters:
   - file: groups/README.md
+    sections:
+      - file: groups/categories.md
   - file: emails/README.md
