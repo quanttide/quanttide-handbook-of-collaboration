@@ -5,3 +5,6 @@ chapters:
     sections:
       - file: groups/categories.md
   - file: emails/README.md
+  - file: legislation/README.md
+    sections:
+      - file: legislation/issues.md
