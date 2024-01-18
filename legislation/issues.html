@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>群聊 &#8212; 量潮团队协作手册</title>
+    <title>议题 &#8212; 量潮团队协作手册</title>
   
   
   
@@ -62,11 +62,9 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'groups/README';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'legislation/issues';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="分类" href="categories.html" />
-    <link rel="prev" title="简介" href="../index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -170,9 +168,9 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">群聊</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="categories.html">分类</a></li>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../groups/README.html">群聊</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../groups/categories.html">分类</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../emails/README.html">邮箱</a></li>
@@ -230,7 +228,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/groups/README.md" target="_blank"
+      <li><a href="../_sources/legislation/issues.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -314,7 +312,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>群聊</h1>
+    <h1>议题</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -324,7 +322,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">分类与命名</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">格式</a></li>
 </ul>
             </nav>
         </div>
@@ -337,12 +335,39 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1>群聊<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
+<h1>议题<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h1>
 <section id="id2">
-<h2>分类与命名<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
-</section>
-<div class="toctree-wrapper compound">
+<h2>格式<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<p>包括：</p>
+<ul class="simple">
+<li><p>序号：正整数。标记议题提交的顺序；会前通常被整理成讨论顺序。</p></li>
+<li><p>标题：动词短语。具体需要做什么事情。</p></li>
+<li><p>描述：长文本。描述具体内容，并且附上必要的草案等链接。</p></li>
+<li><p>发起者：姓名。问题的最初提出者，通常也是第一个发言。</p></li>
+<li><p>发言者：姓名。需要就这个议题发言的人。</p></li>
+<li><p>记录者：姓名。负责落实议题的人或者部门。</p></li>
+<li><p>草案：文档。对某个问题的决议初稿，提交到会议上讨论。</p></li>
+<li><p>决议：文档。经过辩论、修改、投票以后的草案。</p></li>
+</ul>
+<p>示例：</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>议题1：评审议题格式草案
+
+议题格式用以规范会前提交待讨论问题的格式。详见：https://example.com
+
+发起者：张三
+
+发言者：
+
+- 张三@CEO办公室：介绍从政治学中吸收的议题、议程、议事原则的概念。
+- 李四@项目管理部：汇报项目管理部制定的议题格式草案。
+- 王五@人力资源部：补充人力资源部关于议题格式草案的初步评审意见。
+
+记录者：
+
+- 赵六@项目管理部：负责在后续会议中落实议题格式。
+</pre></div>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -358,7 +383,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./groups"
+            path: "./legislation"
         },
         predefinedOutput: true
     }
@@ -375,24 +400,6 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="../index.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">简介</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="categories.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">分类</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -409,7 +416,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">分类与命名</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">格式</a></li>
 </ul>
   </nav></div>
 
