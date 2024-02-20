@@ -1,10 +1,18 @@
 format: jb-book
 root: index.md
-chapters:
-  - file: groups/README.md
-    sections:
-      - file: groups/categories.md
-  - file: emails/README.md
-  - file: deliberationREADME.md
-    sections:
-      - file: deliberation/issues.md
+parts:
+  - caption: 工具
+    chapters:
+      - file: groups/README.md
+        sections:
+          - file: groups/categories.md
+      - file: emails/README.md
+  - caption: 方法
+    chapters:
+      - file: planning/README.md
+        sections:
+          - file: planning/control.md
+          - file: planning/perspective.md
+      - file: deliberation/README.md
+        sections:
+          - file: deliberation/issues.md
