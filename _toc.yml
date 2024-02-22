@@ -13,7 +13,8 @@ parts:
         sections:
           - file: planning/control.md
           - file: planning/perspective.md
-      - file: discussions/README.md
+          - file: planning/brainstorming.md
+      - file: discussion/README.md
       - file: deliberation/README.md
         sections:
-          - file: deliberation/issues.md
+          - file: deliberation/issue.md
