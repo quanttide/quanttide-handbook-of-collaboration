@@ -1,20 +1,35 @@
 format: jb-book
 root: index.md
 parts:
-  - caption: 工具
+  - caption: 平台
     chapters:
-      - file: groups/README.md
+      - file: platforms/figma/README.md
+      - file: platforms/github/README.md
+      - file: platforms/wecom/README.md
         sections:
-          - file: groups/categories.md
-      - file: emails/README.md
-  - caption: 方法
+          - file: platforms/wecom/groups/README.md
+            sections:
+              - file: platforms/wecom/groups/categories.md
+          - file: platforms/wecom/emails/README.md
+  - caption: 行动
     chapters:
-      - file: planning/README.md
+      - file: acting/deciding/README.md
+      - file: acting/planning/README.md
         sections:
-          - file: planning/control.md
-          - file: planning/perspective.md
-          - file: planning/brainstorming.md
-      - file: discussion/README.md
-      - file: deliberation/README.md
+          - file: acting/planning/brainstorming.md
+          - file: acting/planning/control.md
+          - file: acting/planning/perspective.md
+      - file: acting/reporting/README.md
+      - file: acting/reviewing/README.md
+      - file: acting/retrospecting/README.md
+  - caption: 协商
+    chapters:
+      - file: negotiating/conversing/README.md
+      - file: negotiating/discussing/README.md
+      - file: negotiating/deliberating/README.md
         sections:
-          - file: deliberation/issue.md
+          - file: negotiating/deliberating/issue.md
+      - file: negotiating/assembling/README.md
+      - file: negotiating/noticing/README.md
+
+  
