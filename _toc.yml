@@ -11,25 +11,51 @@ parts:
             sections:
               - file: platforms/wecom/groups/categories.md
           - file: platforms/wecom/emails/README.md
-  - caption: 行动
+  - caption: 沟通
     chapters:
-      - file: acting/deciding/README.md
-      - file: acting/planning/README.md
+      - file: communicating/conversing/README.md
+      - file: communicating/noting/README.md
+      - file: communicating/assembling/README.md
+      - file: communicating/noticing/README.md
+  - caption: 执行
+    chapters:
+      - file: executing/acting/README.md
+      - file: executing/scheduling/README.md
+      - file: executing/focusing/README.md
+      - file: executing/voting/README.md
+      - file: executing/approving/README.md
+  - caption: 统筹
+    chapters:
+      - file: coordinating/deciding/README.md
         sections:
-          - file: acting/planning/brainstorming.md
-          - file: acting/planning/control.md
-          - file: acting/planning/perspective.md
-      - file: acting/reporting/README.md
-      - file: acting/reviewing/README.md
-      - file: acting/retrospecting/README.md
+          - file: coordinating/deciding/workflows/README.md
+            sections:
+              - file: coordinating/deciding/workflows/decision_problems.md
+              - file: coordinating/deciding/workflows/decision_criticia.md
+              - file: coordinating/deciding/workflows/decision_choices.md
+              - file: coordinating/deciding/workflows/decision_tradeoffs.md
+          - file: coordinating/deciding/classifications/README.md
+            sections:
+              - file: coordinating/deciding/classifications/decision_types.md
+              - file: coordinating/deciding/classifications/decision_categories.md
+              - file: coordinating/deciding/classifications/decision_tags.md
+          - file: coordinating/deciding/relations/README.md
+            sections:
+              - file: coordinating/deciding/relations/decisions_and_plans.md
+              - file: coordinating/deciding/relations/decisions_and_retrospectives.md
+              - file: coordinating/deciding/relations/decisions_and_deliberations.md
+              - file: coordinating/deciding/relations/decisions_and_strategies.md
+      - file: coordinating/planning/README.md
+        sections:
+          - file: coordinating/planning/brainstorming.md
+          - file: coordinating/planning/control.md
+          - file: coordinating/planning/perspective.md
+      - file: coordinating/reporting/README.md
+      - file: coordinating/reviewing/README.md
+      - file: coordinating/retrospecting/README.md
   - caption: 协商
     chapters:
-      - file: negotiating/conversing/README.md
       - file: negotiating/discussing/README.md
       - file: negotiating/deliberating/README.md
         sections:
           - file: negotiating/deliberating/issue.md
-      - file: negotiating/assembling/README.md
-      - file: negotiating/noticing/README.md
-
-  
