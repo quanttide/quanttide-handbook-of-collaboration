@@ -53,14 +53,6 @@ parts:
       - file: coordinating/reporting/README.md
       - file: coordinating/reviewing/README.md
       - file: coordinating/retrospecting/README.md
-  - caption: 谈判
-    chapters:
-      - file: negotiating/discussing/README.md
-        sections:
-          - file: negotiating/discussing/workflows/README.md
-      - file: negotiating/deliberating/README.md
-        sections:
-          - file: negotiating/deliberating/workflows/README.md
   - caption: 协商
     chapters:
       - file: negotiating/negotiation.md
