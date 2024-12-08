@@ -53,9 +53,33 @@ parts:
       - file: coordinating/reporting/README.md
       - file: coordinating/reviewing/README.md
       - file: coordinating/retrospecting/README.md
-  - caption: 协商
+  - caption: 谈判
     chapters:
       - file: negotiating/discussing/README.md
+        sections:
+          - file: negotiating/discussing/workflows/README.md
+      - file: negotiating/deliberating/README.md
+        sections:
+          - file: negotiating/deliberating/workflows/README.md
+  - caption: 协商
+    chapters:
+      - file: negotiating/negotiation.md
+      - file: negotiating/discussing/README.md
+        sections:
+          - file: negotiating/discussing/workflows/README.md
+            sections:
+              - file: negotiating/discussing/workflows/1_motioning.md
+              - file: negotiating/discussing/workflows/2_seconding.md
+              - file: negotiating/discussing/workflows/3_debating.md
+              - file: negotiating/discussing/workflows/4_resolving.md
+              - file: negotiating/discussing/workflows/5_voting.md
       - file: negotiating/deliberating/README.md
         sections:
           - file: negotiating/deliberating/issue.md
+          - file: negotiating/deliberating/workflows/README.md
+            sections:
+              - file: negotiating/deliberating/workflows/1_motioning.md
+              - file: negotiating/deliberating/workflows/2_seconding.md
+              - file: negotiating/deliberating/workflows/3_debating.md
+              - file: negotiating/deliberating/workflows/4_resolving.md
+              - file: negotiating/deliberating/workflows/5_voting.md
