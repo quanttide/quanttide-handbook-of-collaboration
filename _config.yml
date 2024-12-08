@@ -1,2 +1,11 @@
+name: quanttide-handbook-of-collaboration
 title: 量潮团队协作手册
 author: 量潮科技
+
+# 仓库信息
+repository:
+  url: https://github.com/quanttide/quanttide-handbook-of-collaboration
+  branch: main
+
+# 国际化
+language: zh
